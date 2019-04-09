@@ -11,15 +11,19 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Russo+One" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-  <header class="grid grid-middle">
+  <header class="grid grid-middle" role="banner">
     <div class="unit xs-1 s-1 m-1-4 l-1-5">
       <i class="icon i-128">
         <img src="images/logo.svg" alt="">
       </i>
     </div>
 
-    <nav class="unit xs-1 s-1 m-1-2 l-3-5">
+    <nav class="unit xs-1 s-1 m-1-2 l-3-5" role="navigation">
       <ul class="list-group-inline">
         <li><a class="island-1-2 giga link-box" href="index.html">Home</a></li>
         <li><a class="island-1-2 giga link-box" href="tour.html">Features</a></li>
@@ -27,17 +31,17 @@
         <li><a class="island-1-2 giga link-box" href="sign-up.html">Sign-Up</a></li>
       </ul>
     </nav>
-  </header>
-  <main role="main" id="main" tabindex="0">
-    <div class="banner embed embed-16by9">
+    <section class="unit xs-1 s-1 m-1 l-1 banner embed embed-16by9">
       <img class="embed-item" src="images/banner.jpg" alt="">
       <div class="banner-content pin-c w-1 max-length gutter text-center">
-        <h2 class="push-1-2">WE PUT SECU</h2>
+        <h1 class="push-1-2">WE PUT SECURITY FIRST</h1>
         <p>NOMAD IS A PLATFORM WITH END-NO-END ENCRYPTION THAT OFFERS 50GB FREE STORAGE FOR YOUR FILES</p>
         <a class="btn btn-ghost btn-banner bold" href="#">GET NOMAD</a>
         <a class="btn btn-ghost btn-banner bold" href="#">SIGN-UP NOW</a>
       </div>
-    </div>
+    </section>
+  </header>
+  <main role="main" id="main" tabindex="0">
     <div class="grid">
       <img class="unit xs-1-4 s-1-4 m-1-4 l-1-4" src="images/end-to-end.svg" alt="padlock">
       <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4">
@@ -45,97 +49,97 @@
         <h3> KEEP YOUR DATA SAFE</h3>
         <p>Automatic backup of documents, photos and videos from your mobile phone, tablet or computer</p>
       </div>
-        <img class="unit xs-1-4 s-1-4 m-1-4 l-1-4" src="images/end-to-end.svg" alt="padlock">
-        <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4">
-          <h2>Nomad features included with all plans</h2>
-          <h3> KEEP YOUR DATA SAFE</h3>
-          <p>Automatic backup of documents, photos and videos from your mobile phone, tablet or computer</p>
-        </div>
-          <img class="unit xs-1-4 s-1-4 m-1-4 l-1-4" src="images/end-to-end.svg" alt="padlock">
-          <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4">
-            <h2>Nomad features included with all plans</h2>
-            <h3> KEEP YOUR DATA SAFE</h3>
-            <p>Automatic backup of documents, photos and videos from your mobile phone, tablet or computer</p>
-          </div>
-        </div>
-        <div class="table">
-          <table>
-            <caption>Compare Nomad to competitors</caption>
-            <thead>
-              <tr>
-                <th scope="col">Features</th>
-                <th scope="col">US</th>
-                <th scope="col">Google Drive</th>
-                <th scope="col">Drop Box</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">End-to-end encryption</th>
-                <td>✔</td>
-                <td>𝗫</td>
-                <td>✔</td>
-              </tr>
-              <tr>
-                <th scope="row">Friendly interface</th>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-              </tr>
-              <tr>
-                <th scope="row">Amount of free storage</th>
-                <td>50GB</td>
-                <td>10GB</td>
-                <td>25GB</td>
-              </tr>
-              <tr>
-                <th scope="row">Off-line capabilities</th>
-                <td>✔</td>
-                <td>✔</td>
-                <td>𝗫</td>
-              </tr>
-              <tr>
-                <th scope="row">Chat service</th>
-                <td>✔</td>
-                <td>✔</td>
-                <td>𝗫</td>
-              </tr>
-              <tr>
-                <th scope="row">Built-in security</th>
-                <td>✔</td>
-                <td>✔</td>
-                <td>𝗫</td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-        </main>
-        <footer class="grid" role="contentinfo">
-          <ul class="unit xs-1 s-1 m-1-4 l-1-4">
-            <li><a href="#">Company</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Press Centre</a></li>
-          </ul>
-          <ul class="unit xs-1 s-1 m-1-4 l-1-4">
-            <li><a href="#">Support</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Training</a></li>
-            <li><a href="#">Technical Support</a></li>
-          </ul>
-          <ul class="unit xs-1 s-1 m-1-4 l-1-4">
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">1.009.234</a></li>
-            <li><a href="#">contact@nomad.ca</a></li>
-          </ul>
-          <ul class="unit xs-1 s-1 m-1-4 l-1-4">
-            <li>Follow us</li>
-          </ul>
+      <img class="unit xs-1-4 s-1-4 m-1-4 l-1-4" src="images/end-to-end.svg" alt="padlock">
+      <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4">
+        <h2>Nomad features included with all plans</h2>
+        <h3> KEEP YOUR DATA SAFE</h3>
+        <p>Automatic backup of documents, photos and videos from your mobile phone, tablet or computer</p>
+      </div>
+      <img class="unit xs-1-4 s-1-4 m-1-4 l-1-4" src="images/end-to-end.svg" alt="padlock">
+      <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4">
+        <h2>Nomad features included with all plans</h2>
+        <h3> KEEP YOUR DATA SAFE</h3>
+        <p>Automatic backup of documents, photos and videos from your mobile phone, tablet or computer</p>
+      </div>
+    </div>
+    <div class="table">
+      <table>
+        <caption>Compare Nomad to competitors</caption>
+        <thead>
+          <tr>
+            <th scope="col">Features</th>
+            <th scope="col">US</th>
+            <th scope="col">Google Drive</th>
+            <th scope="col">Drop Box</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">End-to-end encryption</th>
+            <td>✔</td>
+            <td>𝗫</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <th scope="row">Friendly interface</th>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <th scope="row">Amount of free storage</th>
+            <td>50GB</td>
+            <td>10GB</td>
+            <td>25GB</td>
+          </tr>
+          <tr>
+            <th scope="row">Off-line capabilities</th>
+            <td>✔</td>
+            <td>✔</td>
+            <td>𝗫</td>
+          </tr>
+          <tr>
+            <th scope="row">Chat service</th>
+            <td>✔</td>
+            <td>✔</td>
+            <td>𝗫</td>
+          </tr>
+          <tr>
+            <th scope="row">Built-in security</th>
+            <td>✔</td>
+            <td>✔</td>
+            <td>𝗫</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="grid" role="contentinfo">
+    <ul class="unit xs-1 s-1 m-1-4 l-1-4">
+      <li><a href="#">Company</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Press Centre</a></li>
+    </ul>
+    <ul class="unit xs-1 s-1 m-1-4 l-1-4">
+      <li><a href="#">Support</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Training</a></li>
+      <li><a href="#">Technical Support</a></li>
+    </ul>
+    <ul class="unit xs-1 s-1 m-1-4 l-1-4">
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">1.009.234</a></li>
+      <li><a href="#">contact@nomad.ca</a></li>
+    </ul>
+    <ul class="unit xs-1 s-1 m-1-4 l-1-4">
+      <li>Follow us</li>
+    </ul>
 
-          <div class="unit xs-1 s-1 m-1-4 l-1-4">
-            <small>This is not a real website</small>
-          </div>
-        </footer>
-      </body>
+    <div class="unit xs-1 s-1 m-1-4 l-1-4">
+      <small>This is not a real website</small>
+    </div>
+  </footer>
+</body>
 
-      </html>
+</html>
