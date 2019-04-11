@@ -7,6 +7,6 @@ img {
   height: 100%;
 }
 
-.bg {
-  background-color: #668;
+nav ul li a:hover {
+  background-color: orange;
 }
